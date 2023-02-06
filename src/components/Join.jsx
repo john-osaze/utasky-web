@@ -38,8 +38,8 @@ export default function Join() {
                             Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                            <Button_Major href="/signup" btnText="Get Started"/>
-                            <Button_Minor href="/login" style={{color: "#fff"}}/>
+                            <Button_Major btnText="Get Started"/>
+                            <Button_Minor style={{color: "#fff"}}/>
                         </div>
                     </div>
                     <div className="relative mt-16 h-80 lg:mt-8">

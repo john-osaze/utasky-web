@@ -9,10 +9,10 @@ import Button_Major from './reusable/Button_Major'
 import Button_Minor from './reusable/Button_Minor'
 
 const navigation = [
-	{ name: 'Product', href: '#' },
-	{ name: 'Features', href: '#' },
-	{ name: 'Marketplace', href: '#' },
-	{ name: 'Company', href: '#' },
+	{ name: 'Welcome', href: '#' },
+	{ name: 'Programs', href: '#' },
+	{ name: 'Rewards', href: '#' },
+	{ name: 'Insights', href: '#' },
 ]
 
 export default function Hero() {
@@ -135,8 +135,8 @@ export default function Hero() {
 							Earn rewards for yourself just by carrying out simple tasks on your device. It's a free and fun way to reward yourself and make a difference.
 							</p>
 							<div className="mt-10 flex items-center justify-center gap-x-6">
-								<Button_Major href="/signup" btnText="Get Started"/>
-								<Button_Minor href="/login" />
+								<Button_Major btnText="Get Started"/>
+								<Button_Minor/>
 							</div>
 						</div>
 						<div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">

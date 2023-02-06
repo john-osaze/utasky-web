@@ -1,4 +1,4 @@
-import { ArrowPathIcon, UserPlusIcon, FingerPrintIcon, TrophyIcon } from '@heroicons/react/24/outline'
+import { ArrowPathIcon, UserPlusIcon, GiftIcon, TrophyIcon } from '@heroicons/react/24/outline'
 
 const processes = [
     {
@@ -23,7 +23,7 @@ const processes = [
         name: 'Withdraw points as cash',
         description:
             'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-        icon: FingerPrintIcon,
+        icon: GiftIcon,
     },
 ]
 
@@ -35,7 +35,7 @@ export default function Process() {
                     <h2 className="text-lg font-semibold leading-8 tracking-tight" style={{color: "#5e00d7"}}>How uTasky works</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                         Here are a few steps on how you can earn
-                    </p>s
+                    </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                         Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
                         pulvinar et feugiat blandit at. In mi viverra elit nunc.

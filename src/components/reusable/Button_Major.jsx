@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
+
 const Button_Major = ({destination, btnText}) => {
 	return (
-		<a href={destination}>
+		<Link to="/signup">
 			<button className="btn-major">
 				{btnText}
 			</button>
-		</a>
+		</Link>
 	)
 }
 
