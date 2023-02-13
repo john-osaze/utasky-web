@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import Hero from "../components/Hero"
 import Join from "../components/Join"
 import Process from "../components/Process"
@@ -14,6 +15,7 @@ const Home = () => {
             <Promo />
             <Product />
             <Join />
+            <Footer/>
         </>
     )
 }

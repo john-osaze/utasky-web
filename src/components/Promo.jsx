@@ -89,7 +89,7 @@ export default function Promo() {
                                 </div>
                             </div>
 
-                            <Button_Major href="/signup" btnText="Start Registration" />
+                            <Button_Major href="/signup" btnText="Register Now!" />
                         </div>
                     </div>
                 </div>

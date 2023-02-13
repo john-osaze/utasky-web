@@ -1,51 +1,8 @@
-
-// Tailwind UI
-// Components
-// Templates
-// New
-// Documentation
-// Search components
-// Sign in
-//     Get all - access →
-
-// Sign -in and Registration
-// Application UI
-// Forms
-// Simple no labels
-
-// Preview
-
-// Code
-
-// React
-
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { LockClosedIcon } from '@heroicons/react/20/solid'
 
 export default function Subscribe() {
     return (
         <>
-            {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-50">
-        <body class="h-full">
-        ```
-      */}
             <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
                 <div className="w-full max-w-md space-y-8">
                     <div>
@@ -134,17 +91,3 @@ export default function Subscribe() {
         </>
     )
 }
-// Simple card
-// PNG Preview
-
-// Get the code →
-
-// Split screen
-// PNG Preview
-
-// Get the code →
-
-// © 2023 Tailwind Labs Inc.All rights reserved.
-
-// Privacy policy
-// Changelog
