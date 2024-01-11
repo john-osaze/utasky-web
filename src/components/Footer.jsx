@@ -29,9 +29,9 @@ function Footer() {
                     </div>
 
                     <div className="social-networks footer-right flex min-h-full items-center justify-center">
-                        <a href="https://www.facebook.com/facebookviewpoints/" className="facebook" style={{marginLeft: "20px"}}><img width="20" height="20" src={TrophyIcon} alt="footer-logo" /></a>
-                        <a href="https://www.instagram.com/metaviewpoints/" className="instagram" style={{marginLeft: "20px"}}><img width="20" height="20" src={GiftIcon} alt="footer-logo" /></a>
-                        <a href="https://www.instagram.com/metaviewpoints/" className="linkedin" style={{marginLeft: "20px"}}><img width="20" height="20" src={GiftIcon} alt="footer-logo" /></a>
+                        <a href="https://www.facebook.com/facebookviewpoints/" className="facebook" style={{marginLeft: "20px"}}><img width="20" height="20" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-64.png" alt="footer-logo" /></a>
+                        <a href="https://www.instagram.com/metaviewpoints/" className="instagram" style={{marginLeft: "20px"}}><img width="20" height="20" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-64.png" alt="footer-logo" /></a>
+                        <a href="https://www.instagram.com/metaviewpoints/" className="linkedin" style={{marginLeft: "20px"}}><img width="20" height="20" src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-64.png" alt="footer-logo" /></a>
                     </div>
                 </section>
             </footer>
