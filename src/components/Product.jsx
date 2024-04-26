@@ -4,12 +4,12 @@ import GainImg3 from "../assets/images/gain-img-3.jpg"
 import GainImg4 from "../assets/images/gain-img-4.jpg"
 
 const features = [
-    { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
-    { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
-    { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
-    { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
-    { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
-    { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
+    { name: 'Money', description: 'You get rewarded with cash after completing tasks.' },
+    { name: 'Early Access', description: 'Early Access to certain apps is guaranteed.' },
+    { name: 'Social Perks', description: 'Premium subscription on selected social media apps.' },
+    { name: 'Giveaways', description: 'Occasional giveaways are done to support lucky users.' },
+    { name: 'Community Support', description: 'Our outstanding community is ready to help all the way.' },
+    { name: 'Tangible Prizes', description: 'Asides cash, you can receive items from our prize pool.' },
 ]
 
 export default function Product() {
@@ -42,8 +42,8 @@ export default function Product() {
                 <div>
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What you stand to gain</h2>
                     <p className="mt-4 text-gray-500">
-                        The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated
-                        steel divider separates active cards from new ones, or can be used to archive important task lists.
+                        Becoming a part of our taskforce promises to be incredibly beneficial. All of these are offers
+                        you stand to gain once you download our app and start completing tasks. Don't miss out.
                     </p>
 
                     <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">

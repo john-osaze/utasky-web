@@ -90,3 +90,37 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#footerSimple .footer-wrapper .footer-left ul, .social-networks{
+  gap: 0 20px;
+}
+
+@media screen and (max-width: 830px){
+  #footerSimple{
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  #footerSimple{
+    padding: 2rem 1rem ;
+  }
+
+  #footerSimple .footer-wrapper, .footer-left{
+    flex-direction: column;
+  }
+  
+  #footerSimple .footer-wrapper .footer-left ul{
+    flex-direction: column;
+    gap: 15px 0;
+    margin-bottom: 25px;
+  }
+
+  #footerSimple .footer-wrapper .footer-left .footer-logo{
+    margin: 0 0 20px 0;
+  }
+
+  button{
+    font-size: 14px;
+  }
+}

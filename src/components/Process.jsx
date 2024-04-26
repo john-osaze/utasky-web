@@ -4,25 +4,25 @@ const processes = [
     {
         name: 'Sign Up on uTasky',
         description:
-            'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+            'First, you have to register directly on our platform before you can be given tasks.',
         icon: UserPlusIcon,
-    },
-    {
-        name: 'Accumulate your points',
-        description:
-            'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-        icon: ArrowPathIcon,
     },
     {
         name: 'Complete simple tasks',
         description:
-            'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+            'You have to complete simple tasks on the website in order to gain points.',
         icon: TrophyIcon,
     },
     {
+        name: 'Accumulate your points',
+        description:
+            'Each task completed earns you points which you can save and withdraw when due.',
+        icon: ArrowPathIcon,
+    }, 
+    {
         name: 'Withdraw points as cash',
         description:
-            'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+            'When points are due for withdrawal, you can simply withdraw them as cash.',
         icon: GiftIcon,
     },
 ]
@@ -34,11 +34,10 @@ export default function Process() {
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <h2 className="text-lg font-semibold leading-8 tracking-tight" style={{color: "#5e00d7"}}>How uTasky works</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                        Here are a few steps on how you can earn
+                        Here are a few steps on how to earn
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-                        pulvinar et feugiat blandit at. In mi viverra elit nunc.
+                        Get to know all the steps needed to help you start earning from our user-friendly and customer-first reward system.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

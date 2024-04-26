@@ -35,7 +35,7 @@ export default function Join() {
                             Start using our app today.
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
+                            A whole new world awaits! Join us today and explore that world for yourself.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                             <Button_Major btnText="Get Started"/>

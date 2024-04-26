@@ -17,8 +17,8 @@ export default function Promo() {
                             Seize the opportunity to reward yourself! 
                         </h1>
                         <p className="mt-4 text-xl text-gray-500">
-                            This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
-                            if you live or die.
+                            Don't miss out on this exclusive opportunity to earn from simply completing tasks on your phone. You
+                            can share with your friends as well. 
                         </p>
                     </div>
                     <div>
@@ -89,7 +89,7 @@ export default function Promo() {
                                 </div>
                             </div>
 
-                            <Button_Major href="/signup" btnText="Register Now!" />
+                            <Button_Major href="/signup" btnText="Register Now" />
                         </div>
                     </div>
                 </div>
